@@ -33,7 +33,7 @@ public class Main {
 
         int size = 20;
         int counter = 0;
-        Resume resume = new Resume();
+
 
 
 
@@ -202,8 +202,8 @@ public class Main {
                         System.out.println(" ");
 
                     } while (answer.equalsIgnoreCase("y"));
-                    // Print all variables
-//
+
+
                 }
                 while (answer.equalsIgnoreCase("y")) ;
             } while (answer.equalsIgnoreCase("y"));
@@ -212,32 +212,16 @@ public class Main {
         }
     }while(answer.equalsIgnoreCase("y"));
     }
-    public static void print(){
-        System.out.println("");
-//                    System.out.println(person.getName());
-//                    System.out.println(person.getEmail());
-//                    System.out.println("");
-//                    System.out.println("Education");
-//                    System.out.print(college.degree);
-//                    System.out.print(" " + "in" + " ");
-//                    System.out.println(college.major);
-//                    System.out.print(college.name);
-//                    System.out.println(" " + "," + college.year);
-//                    System.out.println(" ");
-//                    System.out.println("Experience");
-//                    System.out.println(job.title);
-//                    System.out.println(job.place + " " + "," + " " + " " + job.date);
-//                    System.out.println(job.duty1);
-//                    System.out.println(job.duty2);
-//                    System.out.println(" ");
-//                    System.out.println("Skills");
-//                    System.out.println(skill.skill1);
-//                    System.out.println(skill.skill2);
-//                    System.out.println(skill.skill3);
+
+        Resume resume = new Resume();
+        System.out.println(getName());
+        System.out.println(getEducation());
+        System.out.println(getExperience());
+        System.out.println(getExpertise());
 
 
     }
-}
+
 
 
 

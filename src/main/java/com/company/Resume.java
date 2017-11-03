@@ -1,7 +1,6 @@
 package com.company;
 
 
-
 import java.util.ArrayList;
 
 public class Resume {
@@ -61,6 +60,14 @@ public class Resume {
     public void addSkill(Skill skills)
     {
         this.expertise.add(skills);
+    }
+
+    public void displayAll(Resume resume){
+        System.out.println(getName());
+        System.out.println(getEducation());
+        System.out.println(getExperience());
+        System.out.println(getExpertise());
+
     }
 
 
