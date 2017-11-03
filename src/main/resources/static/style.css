@@ -1,5 +1,12 @@
-h1{
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-size: 24px;
-    color:black;
+html{
+    background-color: beige;
+}
+
+jerilyn.jpg{
+    height:50px;
+    width:150px;
+}
+p class{
+    font-size: large;
+    color: black;
 }
